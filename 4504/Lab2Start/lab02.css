@@ -1,0 +1,185 @@
+/* Anonyei Emeka 101209704*/
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+ body, section, header, div, p, h1, h2, h3, ul, li {
+   margin: 0;
+   padding: 0;
+
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   background-color: #e4e7eb; 
+   padding: 40px; 
+   background-color: #e4e7eb;
+   font-weight: 300;
+}
+
+section {
+   width: 960px; 
+   margin: 0 auto; 
+   text-align: center;
+   justify-content: space-between; 
+   gap: 20px; 
+}
+
+
+
+header {
+   box-sizing: border-box;
+   left: 50px;
+   border-style: outset;
+   width: 910px;
+   margin-left: 20px;
+}
+h1 { 
+   text-align: center;
+   font-weight: 600;
+   font-size: 42px;
+   padding: 10px 0;
+}
+
+
+h2 {
+   font-size: 24px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+p {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.column{
+   display: inline-block;
+   background-color: white;
+   width: 300px;
+   padding: 20px 0;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(47, 59, 64, 0.35);
+   text-align: center;
+   vertical-align: top;
+
+}
+
+.featured{
+   display: inline-block;
+   width: 300px;
+   background-color: #2F4F4F;
+   color: white;
+}
+
+li{
+   height: 40px;
+}
+
+.column li{
+   text-align: center;
+}
+
+.column li:nth-child(even){
+  background-color: rgba(47, 59, 64, 0.35);
+
+}
+
+.column a:hover{
+   background-color: #437CBF;
+}
+
+.column a {
+   margin-top: 10px;
+   display: inline-block;
+   padding: 10px 100px;
+   background-color: #3A6BA5;
+   color: white;
+   border-radius: 3.5 px;
+   font-size: 1rem;
+   text-decoration: none;
+   transition: background-color 0.3s ease;
+
+}
+
+
+ul{
+
+   margin-top: 5px;
+   margin-bottom: 10px;
+   list-style: none;
+}
+
+.price{
+   font-size: 36px;
+   font-weight: 600;
+   margin: 10px 0 10px
+}
+
+.column span{
+   font-weight: bold;
+}
+
+.price.free {
+background-color: #5BB189;
+}
+
+.price.standard{
+background-color: #4B0082;
+}
+
+.price.professional{
+background-color: #EC632A;
+}
+
+#confidence h2 {
+   font-size: 24px; 
+   font-weight: bold;
+   margin-bottom: 20px; 
+   text-align: left; 
+   padding-left: 40px;
+}
+
+#confidence {
+   width: 915px; 
+   background-color: #2F4F4F; 
+   color: white; 
+   padding: 30px 40; 
+   border-radius: 8px; 
+   margin-top: 40px; 
+   margin: 40px auto; 
+   text-align: left; 
+   align-content: center;
+   
+
+}
+
+#confidence p {
+   margin-bottom: 20px; 
+   font-size: 16px; 
+   text-align: left; 
+   font-weight: 300;
+   padding-left: 40px;
+}
+
+#confidence ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+#confidence li {
+   font-size: 18px;
+   margin-left: 40px;
+   padding-left: 30px;
+   background-image: url('checkmark.svg');
+   background-repeat: no-repeat;
+   background-position: left center;
+   background-size: 24px;
+   margin-bottom: 10px;
+}
