@@ -5,7 +5,7 @@ The second test (test_measure_distance_mock) verifies the behavior of the measur
 It mocks the GPIO pin states (simulating the input signal) and checks that the returned distance is a floating-point value.
 
 TEST FULL BIN NOTIFIER
-This test ensures that the application correctly responds to the state of the compost and paper bins, showing the appropriate message on the Sense HAT and preventing unnecessary messages when the paper bin is not full.
+This test ensures that the application correctly responds to the state of the landfill and metal/plastic bins, showing the appropriate message on the Sense HAT and preventing unnecessary messages when the paper bin is not full.
 
 BIN NOTIFIER
 This code is designed to monitor the status of two bins (compost and paper) and send alerts when they are full using a Raspberry Pi with Sense HAT and Firebase integration
