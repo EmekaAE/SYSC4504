@@ -1,0 +1,14 @@
+The first test (test_check_bin3_and_bin4_status) checks if the check_bin_status function correctly interacts with Firebase and SQLite when checking the status of bins 3 and 4.
+It mocks the Firebase reference and SQLite connection to ensure that the correct calls are made. It tests whether the bin statuses are correctly set to "full" when the distance measured for the bins is below a certain threshold
+
+The second test (test_measure_distance_mock) verifies the behavior of the measure_distance function.
+It mocks the GPIO pin states (simulating the input signal) and checks that the returned distance is a floating-point value.
+
+TEST FULL BIN NOTIFIER
+This test ensures that the application correctly responds to the state of the compost and paper bins, showing the appropriate message on the Sense HAT and preventing unnecessary messages when the paper bin is not full.
+
+BIN NOTIFIER
+This code is designed to monitor the status of two bins (compost and paper) and send alerts when they are full using a Raspberry Pi with Sense HAT and Firebase integration
+
+ULTRASONIC SENSOR
+this code monitors the status of two bins using ultrasonic sensors, checks if the bins are full based on distance readings, stores the measurements in a database, and prints alerts when a bin is confirmed to be full.
